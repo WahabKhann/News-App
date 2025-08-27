@@ -21,3 +21,22 @@ html{
     display: grid;
     place-items: center;
 }
+
+@media(max-width: 500px){
+    .navbar{
+        height: 20rem;
+    }
+    .headline-title{
+        font-size: 2rem;
+    }
+    .ners-grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    footer{
+        min-height: 8rem;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 1rem;
+    }
+}
